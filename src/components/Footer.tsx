@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} BuildMaster Construction. All rights reserved.
+            © {new Date().getFullYear()} M-Tech Solutions. Built by innovators. Visit us at <a className='hover:text-white transition-colors' href="https://www.mtechsolution.online">www.mtechsolution.online</a>
           </p>
           <div className="flex space-x-4 text-sm text-gray-400">
             <a href="#" className="hover:text-yellow-500 transition duration-300">Privacy Policy</a>
